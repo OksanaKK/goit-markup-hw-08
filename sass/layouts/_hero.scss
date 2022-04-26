@@ -1,32 +1,24 @@
-
-
-
-/*
 .hero {
   background-color: #2F303A;
-  padding: 200px 0;
-  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(../images/hero.jpg);
+  url(../images/header-mobile.jpg);
 }
 
 .hero__container {
   text-align: center;
+}
 
-
+.hero__btn {
+  padding: 10px 32px;
 }
 
 .hero__head {
-
-  width: 696px;
   color: var(--secondary-title-text-color);
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
@@ -34,7 +26,74 @@
   margin-left: auto;
 }
 
-.hero__btn {
-  padding: 10px 32px;
+
+@media screen and (max-width: 1199px) {
+ .hero {
+  padding: 118px 0;
+ }
+ 
+  .hero__head {
+    width: 360px;
+    font-size: 26px;
+    line-height: 1.6;
+  }
 }
-  
+
+@media screen and (min-width:480px) {
+  .hero {
+     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+     url(../images/header-mobile.jpg);
+     background-size: cover;
+   }
+
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+ (min-resolution:2dpx) {
+  .hero {
+    background-image: url(../images/header-mobile@2x.jpg);
+}
+}
+}
+
+@media screen and (min-width:768px) {
+  .hero {
+  background-image: url(../images/header-tablet.jpg);
+  background-size: cover;
+  }
+
+
+  @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+ (min-resolution:2dpx) {
+  .hero {
+    background-image: url(../images/header-tablet@2x.jpg);
+}
+}
+}
+
+@media screen and (min-width:1200px) {
+  .hero {
+    padding: 200px 0;
+     max-width: 1600px;
+     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+     url(../images/hero.jpg);
+  }
+
+  .hero__head {
+    width: 696px;
+    font-size: 44px;
+    line-height: 1.36;
+  }
+  @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+   (min-resolution: 192dpi),
+   (min-resolution:2dpx) {
+    .hero {
+      background-image: url(../images/hero@2x.jpg);
+    }
+  }
+
+}
+

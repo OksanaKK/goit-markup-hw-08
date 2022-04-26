@@ -102,7 +102,7 @@
 
     </div>
   </header>
- <!--
+ 
   <main>
     
     <section class="hero">
@@ -111,9 +111,9 @@
         <button class="modal-btn hero__btn" type="button" data-modal-open>Заказать услугу</button>
       </div>
     </section>
-  -->
+  
 
-    <!--section 2 Company Qualities
+    <!--section 2 Company Qualities-->
 
     <section class="section">
       <div class="qualities container">
@@ -172,8 +172,8 @@
         </ul>
       </div>
     </section>
-  -->
-    <!--section 3 Company Activities
+
+    <!--section 3 Company Activities-->
 
     <section class="activities section">
       <div class="container">
@@ -201,16 +201,20 @@
         </ul>
       </div>
     </section>
-  -->
-    <!--section 4 Our team-
+  
+    <!--section 4 Our team-->
 
     <section class="team section">
       <div class="container">
         <h2 class="team__title">Наша команда</h2>
         <ul class="team__list">
           <li class="team__item">
-            <img class="team__image" src="./images/team1.jpg" alt="парень в очках в бордовой рубашке" width="270"
-              height="260" />
+            <img class="team__image"
+            srcset="./images/team1.jpg 1x, ./images/team1@2x.jpg 2x" 
+            src="./images/team1.jpg" 
+            alt="парень в очках в бордовой рубашке" 
+            width="270"
+            height="260" />
             <div class="team__card">
               <h3 class="team__head">Игорь Демьяненко</h3>
               <p class="team__text">Product Designer</p>
@@ -248,7 +252,11 @@
           </li>
 
           <li class="team__item">
-            <img src="./images/team2.jpg" alt="девушка в черном костюме" width="270" height="260" />
+            <img class="team__image"
+            srcset="./images/team2.jpg 1x, ./images/team2@2x.jpg 2x"
+            src="./images/team2.jpg" 
+            alt="девушка в черном костюме" 
+            width="270" height="260" />
             <div class="team__card">
               <h3 class="team__head">Ольга Репина</h3>
               <p class="team__text">Frontend Developer</p>
@@ -286,8 +294,11 @@
           </li>
 
           <li class="team__item">
-            <img class="team-picture" src="./images/team3.jpg" alt="парень в голубой рубашке смотрит в сторону"
-              width="270" height="260" />
+            <img class="team__image" 
+            srcset="./images/team3.jpg 1x, ./images/team3@2x.jpg 2x"
+            src="./images/team3.jpg" 
+            alt="парень в голубой рубашке смотрит в сторону"
+            width="270" height="260" />
             <div class="team__card">
               <h3 class="team__head">Николай Тарасов</h3>
               <p class="team__text">Marketing</p>
@@ -325,7 +336,12 @@
           </li>
 
           <li class="team__item">
-            <img src="./images/team4.jpg" alt="парень в очках в черной футболке" width="270" height="260" />
+            <img class="team__image" 
+            src="./images/team4.jpg" 
+            srcset="./images/team4.jpg 1x, ./images/team4@2x.jpg 2x"
+            alt="парень в очках в черной футболке"
+            width="270" 
+            height="260" />
             <div class="team__card">
               <h3 class="team__head">Михаил Ермаков</h3>
               <p class="team__text">UI Designer</p>
@@ -414,6 +430,7 @@
 
   <footer class="footer">
     <div class="footer__container container">
+      <div class="footer__contacts-wrapper">
       <div class="footer__contacts">
         <a class="logo footer__logo" href="" lang="en">
           <span class="logo__web">Web</span><span class="footer-logo__studio">Studio</span></a>
@@ -461,6 +478,7 @@
           </li>
         </ul>
       </div>
+    </div>
       <form class="subscribe">
         <p class="subscribe__text">Подпишитесь на рассылку</p>
         <div class="subscribe__wrapper">
@@ -514,12 +532,12 @@
 
         <span class="checkbox__wrapper">
           <input name="accept_policy" type="checkbox" class="checkbox visually-hidden" id="policy-checkbox" required>
-          <label for="policy-checkbox" class="checkbox__label">Соглашаюсь с рассылкой и принимаю &nbsp;<a class="checkbox__conditions" href="">Условия договора</a></label></span>
+          <label for="policy-checkbox" class="checkbox__label">Соглашаюсь с рассылкой и принимаю&nbsp;<a class="checkbox__conditions" href="">Условия договора</a></label></span>
         <button type="submit" class="modal-btn submit-btn">Отправить</button>
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script> 
     <script src="./js/menu.js"></script>
   </body>
 </html>
