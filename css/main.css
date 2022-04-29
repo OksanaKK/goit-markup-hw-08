@@ -354,7 +354,7 @@ a:hover, a:focus {
 }
 
 .hero {
-  background-color: #2f303a;
+  background-color: #2F303A;
   margin-left: auto;
   margin-right: auto;
   background-position: center;
@@ -400,7 +400,7 @@ a:hover, a:focus {
 
 @media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dpx) {
   .hero {
-    background-image: url(../images/header-mobile@2x.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/header-mobile@2x.jpg);
   }
 }
 
@@ -413,7 +413,7 @@ a:hover, a:focus {
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dpx) {
   .hero {
-    background-image: url(../images/header-tablet@2x.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/header-tablet@2x.jpg);
   }
 }
 
@@ -432,7 +432,7 @@ a:hover, a:focus {
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dpx) {
   .hero {
-    background-image: url(../images/hero@2x.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/hero@2x.jpg);
   }
 }
 
