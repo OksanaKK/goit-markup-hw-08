@@ -565,9 +565,8 @@ a:hover, a:focus {
 }
 
 .team__card {
-  width: 100%;
-  margin-top: 30px;
-  margin-bottom: 24px;
+  padding-top: 30px;
+  padding-bottom: 24px;
 }
 
 .team__head {
@@ -598,12 +597,8 @@ a:hover, a:focus {
   fill: #ffff;
 }
 
-.social__item:not(last-child) {
+.social__item:not(:last-child) {
   margin-right: 10px;
-}
-
-.team__image {
-  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -651,6 +646,7 @@ a:hover, a:focus {
   color: var(--title-text-color);
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 25px;
 }
 
 .clients__list {
@@ -659,10 +655,11 @@ a:hover, a:focus {
   align-items: center;
   flex-wrap: wrap;
   margin-left: -30px;
+  margin-bottom: -30px;
 }
 
 .clients__item {
-  margin-top: 30px;
+  margin-bottom: 30px;
   margin-left: 30px;
   width: 210px;
   height: 92px;

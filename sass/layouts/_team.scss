@@ -24,9 +24,8 @@ background-color: #f5f4fa;
 
 
 .team__card {
-  width: 100%;
-  margin-top: 30px;
-  margin-bottom: 24px;
+  padding-top: 30px;
+  padding-bottom: 24px;
 }
 
 .team__head {
@@ -58,12 +57,10 @@ background-color: #f5f4fa;
   }
 }
 
-.social__item:not(last-child) {
+.social__item:not(:last-child) {
   margin-right: 10px;
 }
-  .team__image {
-    width: 100%;
-   }
+  
 
 
 @media screen  and (min-width:768px) {
