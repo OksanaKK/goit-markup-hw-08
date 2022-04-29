@@ -18,6 +18,10 @@
   text-align: center;
 }
 
+.qualities__item:not(:last-child) {
+  margin-bottom:30px;
+}
+
 .qualities__text {
   font-size: 14px;
   line-height: 1.71;
@@ -34,7 +38,6 @@
   .qualities__item {
     flex-basis: calc((100%-60) / 2);
     margin-right: 30px;
-    margin-bottom: 30px;
     max-width: 354px;
   }
   .qualities__head {
