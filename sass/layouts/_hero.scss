@@ -4,8 +4,7 @@
   margin-right: auto;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-  url(../images/header-mobile.jpg);
+  
 }
 
 .hero__container {
@@ -61,7 +60,7 @@
 
 @media screen and (min-width:768px) {
   .hero {
-  background-image: url(../images/Header-tablet.jpg);
+  background-image: url(../images/header_tablet.jpg);
   background-size: cover;
   }
 
@@ -73,7 +72,7 @@
   .hero {
     background-image:
     linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), 
-    url(../images/header-tablet@2x.jpg);
+    url(../images/header_tablet@2x.jpg);
 }
 }
 }
