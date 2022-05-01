@@ -20,9 +20,7 @@
 .footer__logo {
   margin-bottom: 20px;
 }
-.footer__contacts {
-  margin-bottom: 60px;
-}
+
 
 .footer-contacts__list {
   font-weight: 400;
@@ -52,9 +50,7 @@
   margin-bottom: 20px;
 }
 
-.footer-social {
-  margin-bottom: 60px;
-}
+
 
 .social__link--footer {
   background-color: rgba(255, 255, 255, 0.1);
@@ -121,18 +117,27 @@
 
 }
 
-@media screen and (max-width:767px) {}
+@media screen  and (max-width:767px) {
+  .footer-social {
+    margin-bottom: 60px;
+  }
+  .footer__contacts {
+    margin-bottom: 60px;
+  }
+}
 
 @media screen and (min-width:768px) {
+  .footer {
+     padding: 60px 0;
+  }
 
   .footer__contacts-wrapper {
     display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
   }
 
-  .footer__contacts {
-    margin-right: 165px;
-    margin-left: 60px;
-  }
+ 
 
   .subscribe__email {
     max-width: 450px;
