@@ -153,6 +153,7 @@ a:hover, a:focus {
     padding-bottom: 10px;
   }
   .mobile-menu {
+    z-index: 12;
     position: absolute;
     top: 0;
     left: 0;
